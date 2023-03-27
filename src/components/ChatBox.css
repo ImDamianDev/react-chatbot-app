@@ -11,7 +11,7 @@
   overflow: auto;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 1em;
   margin-bottom: 4em;
 }
 
@@ -27,7 +27,6 @@
 
 .bot {
   align-self: flex-start;
-  background-color: #fff;
 }
 
 .user .message-text {
@@ -36,12 +35,14 @@
   background-color: #83c5be;
   border-radius: 10px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  max-width: 22em;
+  max-width: 20em;
+  min-width: 10em;
 }
 
 .bot .message-text {
-  min-width: fit-content;
-  max-width: 22em;
+  background-color: #fff;
+  min-width: 10em;
+  max-width: 20em;
   text-align: left;
   border-radius: 10px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
